@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Recorder" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="rippleColor">@color/grayDarkDisabled</item>
+    </style>
+
+    <style name="TextLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="boxBackgroundColor">@color/gray</item>
+        <item name="boxStrokeColor">@color/strokeColor</item>
+        <item name="boxCornerRadiusBottomStart">26dp</item>
+        <item name="boxCornerRadiusBottomEnd">26dp</item>
+        <item name="boxCornerRadiusTopStart">26dp</item>
+        <item name="boxCornerRadiusTopEnd">26dp</item>
+    </style>
+</resources>
